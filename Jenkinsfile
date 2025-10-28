@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/<your-username>/jenkins-python-poc.git'
+                git 'https://github.com/Sai5912/jenkins-python-poc.git'
             }
         }
 
